@@ -10,24 +10,9 @@ import ChurchInfo from './ChurchInfo';
 import AboutChurch from './AboutChurch';
 import Ministries from './Ministries';
 import WhatWeOffer from './WhatWeOffer';
+import BringingFaith from './BringingFaith';
 
 const ChurchHomepage = () => {
-
-  const testimonials = [
-    {
-      text: "We attended our first Sunday here and we knew right away there was a uniqueness about this church. God used Charia Church to develop in us a stronger passion for him and a deeper relationship with him.",
-      author: "James Wilson, Parishioner"
-    },
-    {
-      text: "This church has been a blessing to our family. The teachings have helped us grow in our faith and the community has been so supportive.",
-      author: "Sarah Thompson, Parishioner"
-    },
-    {
-      text: "Charia Church has been instrumental in my spiritual journey. The sermons are insightful, and the programs have helped me connect with like-minded individuals.",
-      author: "Michael Davis, Parishioner"
-    }
-  ];
-
 
   return (
     <div>
@@ -66,35 +51,10 @@ const ChurchHomepage = () => {
       <AboutChurch/>      
       <Ministries/>       
       <NewSermons/>
-      <WhatWeOffer/>      
+      <WhatWeOffer/> 
+      <BringingFaith/>     
 
-      <div className='faith'>
-        <Container>
-          <Row>
-            <Col style={{marginTop: '10rem'}}>
-              <h2>BRINGING FAITH TO YOUR LIFE FOR OVER 20 YEARS</h2>
-              <p>Charia Church is a caring, Christian family committed to sharing the love of Christ.</p>
-              <p>To have a better understanding about how we impact the lives of our parishioners, read these recently submitted testimonials.</p>
-              <Button variant="primary">Learn More</Button>
-            </Col>
-            <Col style={{marginTop: '2rem'}}>
-              <Image src="path/to/image.jpg" fluid />
-              <Carousel>
-                {testimonials.map((testimonial, index) => (
-                  <Carousel.Item key={index}>
-                    <div className="testimonial">
-                      <p>{testimonial.text}</p>
-                      <div className="author">
-                        <span>{testimonial.author}</span>
-                      </div>
-                    </div>
-                  </Carousel.Item>
-                ))}
-              </Carousel>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      
     </div>
   );
 };
