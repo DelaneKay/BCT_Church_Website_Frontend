@@ -1,0 +1,32 @@
+/* Carousel Page Component*/
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 12.25rem;
+    left: 15%;
+    color: #fff;
+    text-align: left;
+  }
+
+  .carousel-caption button {
+    border-radius: 0%;
+  }
+  
+  .address {
+    position: absolute;
+    right: 15%;
+    bottom: 6.25rem;
+    left: 15%;
+    color: #fff;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+

@@ -1,0 +1,1 @@
+export { default as ChurchHomepage } from "./homepage/ChurchHomepage"

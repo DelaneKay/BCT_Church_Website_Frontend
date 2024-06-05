@@ -1,0 +1,278 @@
+
+/* Church Homepage Component */
+.logo {
+    height: 50px;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 15px;
+  }
+  
+  .contact-info {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .bg-image h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .bg-image p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .logo {
+    width: 60px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Church Info Section*/
+  .church-info-container {
+    padding: 6.5rem 0;
+    height: 45vh;
+  }
+  
+  .church-info-text {
+    font-size: 1.65rem;
+    line-height: 1.6;
+    text-align: left;
+    color: #333;
+    margin-bottom: 0;
+    position: absolute;
+    right: 15%;
+    text-align: left;
+    margin-left: 16rem;
+    padding-right: 10rem;
+  }
+
+  .vertical-line {
+    position: relative;
+    left: 10%;
+    transform: translateX(-50%);
+    width: .2rem;
+    height: 8rem;
+    background-color: #CF4A46;
+  }
+
+
+  /* About Our Church Section*/
+  .about-church {
+    background-color: #f8f8f8;
+    height: 85vh;
+  }
+
+  .about-church button {
+    margin-top: 2rem;
+    font-size: large;
+    border-radius: 0%;
+  }
+
+  .about-church p {
+    font-size: large;
+  }
+
+  /* Faith Section */
+  .testimonial {
+    background-color: #CF4A46; /* Replace with the appropriate color */
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff; /* Replace with the appropriate text color */
+    text-align: center;
+  }
+  
+  .author {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .faith {
+    background-color: #1B2125;
+    color: #fff;
+  }
+
+/* Ministries */
+  .ministries-section {
+    background-color: #1B2125;
+    color: white;
+    padding: 2rem;
+    height: 55vh;
+  }
+  
+  .ministries-title {
+    text-align: center;
+    margin-bottom: 3.5rem;
+    margin-top: 4rem;
+    font-size: 2.75rem;
+  }
+  
+  .ministry-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .ministry-card:hover {
+    transform: scale(1.3);
+  }
+  
+  .ministry-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #CF4A46;
+  }
+
+  .ministries-container {
+    padding: 0rem 5rem;
+  }
+
+  /* New Sermons Section */
+  .new-sermons-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    height: 130vh;
+  }
+  
+  .new-sermons-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #212529;
+  }
+  
+  .new-sermons-description {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #6c757d;
+    font-size: 1.125rem;
+  }
+  
+  .new-sermons-carousel {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .custom-card {
+    border-radius: 0%;
+    margin: 0 2rem;
+    overflow: hidden;
+    box-shadow: 8px 25px 25px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+    border: 0;
+  }
+  
+  
+  .custom-card-image {
+    height: auto;
+    display: block;
+  }
+  
+  .custom-card-body {
+    padding: 1.85rem;
+  }
+  
+  .custom-card-tag {
+    display: inline-block;
+    background-color: #F5DBDA; /* Light pink background */
+    color: #CF4A46; /* Orange-red text */
+    font-size: 0.95rem;
+    font-weight: 555;
+    padding: 5px 10px;
+    border-radius: 0%;
+    margin-bottom: 10px;
+  }
+  
+  .custom-card-title {
+    font-size: 1.75rem;
+    font-weight: 555;
+    margin: 10px 0;
+  }
+  
+  .custom-card-divider {
+    width: 50px;
+    height: 1.5px;
+    background-color: #CFCFCF; /* Light grey color */
+    margin: 10px 0;
+  }
+  
+  .custom-card-date {
+    font-size: 0.75rem;
+    color: #6B7280; /* Grey text color */
+    font-weight: 500;
+  }
+
+  .custom-dots .react-multi-carousel-dot button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .custom-dots .react-multi-carousel-dot button:before {
+    content: '';
+    width: 10px; /* Adjust the width and height as needed */
+    height: 10px;
+    display: block;
+    background: #F5DBDA; /* Default dot color */
+    border-radius: 50%;
+  }
+  
+  .custom-dots .react-multi-carousel-dot--active button:before {
+    background: #CF4A46; /* Active dot color */
+  }
+  
+  /* What We Offer Section */
+  .container-custom {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f8f8; /* Light background color */
+    height: 75vh
+  }
+  
+  .title-custom {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #111827; /* Black text color */
+  }
+  
+  .card-custom {
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .card-img-custom {
+    border-radius: 0;
+  }
+  
+  .card-title-custom {
+    font-size: 16px;
+    font-weight: bold;
+    color: #111827; /* Black text color */
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .card-title-custom::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #CF4A46; /* Black line color */
+    margin: 10px auto 0;
+  }
+  
+  .card-subtitle-custom {
+    font-size: 14px;
+    color: #CF4A46; /* Orange-red text color */
+    margin-top: 10px;
+  }
+  
+  
