@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-import './homepage_css/homepage.css'
+import './homepage_css/ministries.css'
 import { FaBible, FaPray, FaVideo, FaItunesNote, FaHome } from 'react-icons/fa';
 
 const Ministries = () => {

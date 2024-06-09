@@ -4,6 +4,7 @@ import image1 from '../../../media/images/img5.jpg';
 import image2 from '../../../media/images/img5.jpg';
 import image3 from '../../../media/images/img5.jpg';
 import image4 from '../../../media/images/img5.jpg';
+import './homepage_css/whatweoffer.css'
 
 const WhatWeOffer = () => {
 

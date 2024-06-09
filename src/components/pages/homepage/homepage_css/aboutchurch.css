@@ -1,0 +1,17 @@
+/* About Our Church Section*/
+.about-church {
+    background-color: #f8f8f8;
+    height: 85vh;
+  }
+
+  .about-church button {
+    margin-top: 2rem;
+    font-size: large;
+    border-radius: 0%;
+  }
+
+  .about-church p {
+    font-size: large;
+  }
+
+  

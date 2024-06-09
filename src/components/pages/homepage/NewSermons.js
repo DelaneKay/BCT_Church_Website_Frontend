@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Button,  Card } from 'react-bootstrap';
 import Img2 from '../../../media/images/img5.jpg'
-import './homepage_css/homepage.css'
+import './homepage_css/newsermons.css'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
   

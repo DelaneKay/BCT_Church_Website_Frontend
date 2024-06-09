@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-import './homepage_css/homepage.css'
+import './homepage_css/churchinfo.css'
 
 const ChurchInfo = () => {
   return (
@@ -9,7 +9,7 @@ const ChurchInfo = () => {
           <Row>
             <Col>
               <div className="d-flex align-items-center">
-              <div className="vertical-line"></div>
+              <div className="vertical-line1"></div>
               <p className="church-info-text">
                 Our church incorporates God's family into our fellowship. We
                 provide a warm, authentic community, welcoming new believers

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col, Button, Image} from 'react-bootstrap';
 import Img1 from '../../../media/images/img4.jpg'
-import './homepage_css/homepage.css'
+import './homepage_css/aboutchurch.css'
 
 
 const AboutChurch = () => {
