@@ -4,7 +4,6 @@ import Img1 from '../../../media/images/img4.jpg'
 import BCTLogo from '../../../media/images/bct-logo.png'
 import CarouselPage from './CarouselPage';
 import './homepage_css/homepage.css'
-import { FaBible, FaPray, FaVideo, FaItunesNote, FaHome } from 'react-icons/fa';
 import NewSermons from './NewSermons';
 import ChurchInfo from './ChurchInfo';
 import AboutChurch from './AboutChurch';
@@ -13,6 +12,7 @@ import WhatWeOffer from './WhatWeOffer';
 import BringingFaith from './BringingFaith';
 import TeamSection from './TeamSection';
 import AppSection from './AppSection';
+import ConsultationSection from './ConsultationSection';
 
 const ChurchHomepage = () => {
 
@@ -56,7 +56,10 @@ const ChurchHomepage = () => {
       <WhatWeOffer/> 
       <BringingFaith/>
       <TeamSection/>
-      <AppSection/>     
+      <AppSection/>
+      <ConsultationSection/> 
+      <div>
+      </div>    
 
       
     </div>
