@@ -11,6 +11,8 @@ import AboutChurch from './AboutChurch';
 import Ministries from './Ministries';
 import WhatWeOffer from './WhatWeOffer';
 import BringingFaith from './BringingFaith';
+import TeamSection from './TeamSection';
+import AppSection from './AppSection';
 
 const ChurchHomepage = () => {
 
@@ -52,7 +54,9 @@ const ChurchHomepage = () => {
       <Ministries/>       
       <NewSermons/>
       <WhatWeOffer/> 
-      <BringingFaith/>     
+      <BringingFaith/>
+      <TeamSection/>
+      <AppSection/>     
 
       
     </div>
